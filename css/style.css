@@ -135,7 +135,7 @@ body{
     left: 1055px;
 }
 
-.password_main{
+.main_password_info{
     position: fixed;
     width: 601px;
     height: 67px;
@@ -143,10 +143,9 @@ body{
     left: 1048px;
 }
 
-.email_main{
-    position: fixed;
-    width: 601px;
-    height: 67px;
-    top: 549px;
-    left: 1048px;
+.main_password_str{
+    height: 60px;
+    width: 590px;
+    background-color: transparent;
+    /* border: 0; */
 }
