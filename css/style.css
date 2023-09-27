@@ -43,6 +43,7 @@ body{
 }
 
 .vans_force{
+    user-select: none;
     position: fixed;
     width: 1003.24px;
     height: 891.26px;
@@ -51,6 +52,7 @@ body{
 }
 
 .prada{
+    user-select: none;
     position: fixed;
     width: 571px;
     height: 659px;
@@ -71,6 +73,7 @@ body{
 } */
 
 .background_for_login{
+    user-select: none;
     background: rgb(49,51,52);
     background: linear-gradient(0deg, rgba(49,51,52,1) 50%, rgba(33,33,33,1) 100%);;
     position: fixed;
@@ -82,6 +85,7 @@ body{
 }
 
 .email{
+    user-select: none;
     position: fixed;
     width: 601px;
     height: 67px;
@@ -90,6 +94,7 @@ body{
     mix-blend-mode: color-burn;
 }
 .email1{
+    user-select: none;
     position: fixed;
     width: 78px;
     height: 36px;
@@ -105,6 +110,7 @@ body{
 
 }
 .password{
+    user-select: none;
     position: fixed;
     width: 601px;
     height: 67px;
@@ -114,6 +120,7 @@ body{
 }
 
 .password1{
+    user-select: none;
     position: fixed;
     font-family: Arial;
     font-size: 31px;
