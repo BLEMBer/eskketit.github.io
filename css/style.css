@@ -137,21 +137,22 @@ body{
     left: 1055px;
 }
 
+
 .main_password_info{
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 693px;
-    left: 1048px;
+    top: 700px;
+    left: 1130px;
 }
 
 .main_password_str{
     height: 60px;
-    width: 590px;
+    width: 520px;
     background-color: transparent;
-    
-    /* border: 0; */
+    border: 0;
 }
+
 .main_password_str::placeholder{
     font-weight: 400;
     font-size: 22px;
@@ -164,6 +165,35 @@ body{
     color: rgba(255, 255, 255, 0.34);
 }
 
+.main_email_info{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 558px;
+    left: 1130px;
+}
+
+.main_email_str{
+    height: 60px;
+    width: 520px;
+    background-color: transparent;
+    border: 0;
+}
+
+.main_email_str::placeholder{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.main_email_str::placeholder{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.34);
+}
+
 input{
     color: white;
+    font-size: 22px;
 }
+
