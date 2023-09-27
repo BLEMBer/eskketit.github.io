@@ -202,3 +202,10 @@ input{
     font-size: 22px;
 }
 
+.button{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 858px;
+    left: 1065px;
+}
