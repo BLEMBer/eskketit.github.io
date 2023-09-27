@@ -15,16 +15,3 @@
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/arial.woff") format("woff");
   }
-
-
-
-
-
-
-
-
-.item{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-}
