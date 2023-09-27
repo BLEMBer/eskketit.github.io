@@ -216,5 +216,5 @@ input{
 .button:hover{
     opacity: 50%;
     color:#ffffff;
-    transition: 0.7s;
+    transition: 0.2s;
 }
