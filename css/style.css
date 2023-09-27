@@ -70,35 +70,6 @@ body{
     transition-duration: 1s;
 } */
 
-
-.email1{
-    width: 78px;
-    height: 36px;
-    top: 482px;
-    left: 1048px;
-    font-family: Arial;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-}
-
-.password1{
-    font-family: Arial;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-    width: 137px;
-    height: 36px;
-    top: 634px;
-    left: 1048px;
-}
-
 .background_for_login{
     background: rgb(49,51,52);
     background: linear-gradient(0deg, rgba(49,51,52,1) 50%, rgba(33,33,33,1) 100%);;
@@ -118,7 +89,20 @@ body{
     left: 1048px;
     mix-blend-mode: color-burn;
 }
+.email1{
+    width: 78px;
+    height: 36px;
+    top: 482px;
+    left: 1048px;
+    font-family: Arial;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
 
+}
 .password{
     position: fixed;
     width: 601px;
@@ -126,4 +110,18 @@ body{
     top: 693px;
     left: 1048px;
     mix-blend-mode: color-burn;
+}
+
+.password1{
+    font-family: Arial;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 137px;
+    height: 36px;
+    top: 634px;
+    left: 1048px;
 }
