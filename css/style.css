@@ -48,6 +48,8 @@ body{
 .welcomeback:hover{
     transform: scale(1.05);
 }
+
+
 .vans_force{
     user-select: none;
     position: fixed;
@@ -55,6 +57,11 @@ body{
     height: 891.26px;
     top: 166px;
     left: 33px;
+    filter: brightness(50%);
+    transition: 300ms ease-in;
+}
+.vans_force:hover{
+    filter: brightness(100%);
 }
 
 .prada{
