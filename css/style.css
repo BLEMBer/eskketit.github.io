@@ -58,7 +58,7 @@ body{
 
 }
 .prada:hover{
-    transition: 200ms;
+    transition: 2200ms;
     transform: scale(1.1) rotate(-10deg);
 }
 
