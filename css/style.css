@@ -39,3 +39,11 @@ body{
     font-weight: 700;
     word-wrap: break-word
 }
+.prada{
+    position: fixed;
+    width: 571px;
+    height: 659px;
+    top: 157px;
+    left: 128px;
+
+}
