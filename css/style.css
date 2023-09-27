@@ -55,7 +55,7 @@ body{
     height: 659px;
     top: 157px;
     left: 128px;
-
+    transition: transform 0.2s linear;
 }
 .prada:hover{
     transition: 2200ms;
