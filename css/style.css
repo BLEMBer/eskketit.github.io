@@ -22,6 +22,8 @@
 
   
 body{
+    -webkit-background-size: cover;
+    min-height: 100vh;
     height: 100vh;
     background-color: #212121;
     background-size: cover;
