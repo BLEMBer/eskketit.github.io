@@ -57,3 +57,13 @@ body{
     left: 128px;
 
 }
+.background_for_login{
+    background: rgb(49,51,52);
+    background: linear-gradient(90deg, rgba(49,51,52,1) 50%, rgba(33,33,33,1) 100%);;
+    position: fixed;
+    width: 909px;
+    height: 1165px;
+    top: -64px;
+    left: 1011px;
+
+}
