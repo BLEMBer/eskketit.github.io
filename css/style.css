@@ -149,6 +149,7 @@ body{
     height: 60px;
     width: 590px;
     background-color: transparent;
+    
     /* border: 0; */
 }
 
@@ -156,4 +157,8 @@ body{
     font-weight: 400;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.34);
+}
+
+input{
+    color: white;
 }
