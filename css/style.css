@@ -4,6 +4,7 @@
         url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff2")
         url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff")
 }
+
 @font-face {
     font-family: "Arial";
     font-style: normal;
@@ -15,6 +16,7 @@
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/arial.woff") format("woff");
   }
+
 
   /* intro moment */
 
@@ -46,7 +48,6 @@ body{
     height: 891.26px;
     top: 166px;
     left: 33px;
-
 }
 
 .prada{
@@ -57,6 +58,7 @@ body{
     left: 128px;
     transition: transform 1s ease-out;
 }
+
 .prada:hover{
     transform: scale(1.1) rotate(-10deg);
 }
@@ -67,6 +69,8 @@ body{
     transform: rotate(-10deg) scale(1.1);
     transition-duration: 1s;
 } */
+
+
 .email1{
     width: 78px;
     height: 36px;
@@ -79,8 +83,8 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: white;
-
 }
+
 .password1{
     font-family: Arial;
     font-size: 31px;
@@ -105,6 +109,7 @@ body{
     left: 1011px;
     filter: blur(4px);
 }
+
 .email{
     position: fixed;
     width: 601px;
