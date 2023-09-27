@@ -65,5 +65,6 @@ body{
     height: 1165px;
     top: -64px;
     left: 1011px;
-
+    filter: blur(4px);
 }
+  
