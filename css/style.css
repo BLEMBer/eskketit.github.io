@@ -88,6 +88,7 @@ body{
     mix-blend-mode: color-burn;
 }
 .email1{
+    position: fixed;
     width: 78px;
     height: 36px;
     top: 482px;
@@ -111,6 +112,7 @@ body{
 }
 
 .password1{
+    position: fixed;
     font-family: Arial;
     font-size: 31px;
     font-weight: 400;
