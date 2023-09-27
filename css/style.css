@@ -216,3 +216,9 @@ input{
     top: 858px;
     left: 1065px;
 }
+
+.button:hover{
+    opacity: 50%;
+    color:#ffffff;
+    transition: 0.2s;
+}
