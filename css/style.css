@@ -41,9 +41,13 @@ body{
     font-size: 88px;
     font-family: Arial;
     font-weight: 700;
-    word-wrap: break-word
-}
+    word-wrap: break-word;
+    transition: 100ms ease-in;
 
+}
+.welcomeback:hover{
+    transform: scale(1.05);
+}
 .vans_force{
     user-select: none;
     position: fixed;
@@ -85,6 +89,7 @@ body{
     left: 1011px;
     filter: blur(4px);
 }
+
 
 .email{
     user-select: none;
