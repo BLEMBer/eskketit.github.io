@@ -68,6 +68,10 @@ body{
     transition-duration: 1s;
 } */
 .email1{
+    width: 78px;
+    height: 36px;
+    top: 482px;
+    left: 1048px;
     font-family: Arial;
     font-size: 31px;
     font-weight: 400;
@@ -75,10 +79,6 @@ body{
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    width: 78px;
-    height: 36px;
-    top: 482px;
-    left: 1048px;
 
 }
 .password1{
@@ -93,8 +93,6 @@ body{
     height: 36px;
     top: 634px;
     left: 1048px;
-    
-
 }
 
 .background_for_login{
