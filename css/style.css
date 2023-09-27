@@ -6,3 +6,20 @@
     background-size: cover;
 }
 
+@font-face {
+    font-family: MuseoSansCyrl-500;
+    src: local(Museo Sans Cyrl 500), local(MuseoSansCyrl-500)
+        url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff2")
+        url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff")
+}
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Roboto"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/arial.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/arial.woff") format("woff");
+  }
