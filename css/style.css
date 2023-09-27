@@ -149,6 +149,7 @@ body{
     height: 60px;
     width: 590px;
     background-color: transparent;
+    
     /* border: 0; */
 }
 .main_password_str::placeholder{
