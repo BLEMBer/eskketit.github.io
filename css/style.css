@@ -127,3 +127,19 @@ body{
     top: 655px;
     left: 1055px;
 }
+
+.password_main{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 693px;
+    left: 1048px;
+}
+
+.email_main{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 549px;
+    left: 1048px;
+}
