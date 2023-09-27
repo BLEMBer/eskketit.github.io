@@ -27,13 +27,10 @@ body{
 
 
 .welcomeback{
-    width: 615px;
-    height: 175px;
-    top: 117px;
-    left: 1048px;
     color: white;
     font-size: 88px;
     font-family: Arial;
     font-weight: 700;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-bottom: 22px;
 }
