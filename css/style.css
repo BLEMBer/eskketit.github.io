@@ -87,3 +87,11 @@ body{
     left: 1048px;
     mix-blend-mode: color-burn;
 }
+.password{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 693px;
+    left: 1048px;
+    mix-blend-mode: color-burn;
+}
