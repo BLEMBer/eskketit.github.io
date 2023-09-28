@@ -52,7 +52,7 @@ body {
     position: fixed;
     width: 599px;
     height: 52px;
-    top: 103px;
+    top: 55px;
     left: 649px;
     border-radius: 75px;
     transition: 250ms linear;
@@ -71,7 +71,7 @@ body {
     position: fixed;
     width: 599px;
     height: 52px;
-    top: 140px;
+    top: 92px;
     left: 700px;
     border-radius: 75px;
     transition: 250ms linear;
@@ -109,3 +109,17 @@ body {
     }
 }
 
+.open{
+    width: 445px;
+    height: 73px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: -2px 6px 0px rgba(71, 34, 79, 0.42);
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
