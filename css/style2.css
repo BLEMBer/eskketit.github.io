@@ -41,6 +41,7 @@ body {
     display:block;
     margin:auto;
     opacity: 50%;
+    user-select: none;
     z-index: -15px;
     transition: 300ms linear;
     &:hover{
@@ -85,6 +86,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.back-bar{
+    user-select: none;
 }
 
 .bar-item{
