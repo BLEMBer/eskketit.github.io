@@ -27,9 +27,6 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 100vh;
-    font-family: 'Arial';
-    font-style: normal;
-    color: white;
   }
 
 .block{
@@ -63,39 +60,3 @@ body {
         position: scale(4px);
     }
 }
-
-
-/* <div class="home">Home</div>
-<div class="Profile">Profile</div>
-<div class="about_us">Abous Us</div>
-<div class="basket">Basket</div> */
-
-.text{
-    position: fixed;
-    width: 599px;
-    height: 52px;
-    top: 140px;
-    left: 700px;
-    border-radius: 75px;
-    transition: 250ms linear;
-}
-
-.text-bar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.bar-item{
-    margin-right: 55px;
-}
-
-.bar-link{
-    color: white;
-    font-size: 26px;
-    font-family: Museo Sans Cyrl;
-    font-weight: 400;
-    word-wrap: break-word;
-    text-decoration: none;
-}
-
