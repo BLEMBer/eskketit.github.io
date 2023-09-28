@@ -34,7 +34,7 @@ body{
     position: fixed;
     width: 615px;
     height: 175px;
-    top: 117px;
+    top: 50px;
     left: 1048px;
     user-select: none;
     color: white;
@@ -42,11 +42,12 @@ body{
     font-family: Arial;
     font-weight: 700;
     word-wrap: break-word;
-    transition: 100ms ease-in;
+    transition: 300ms ease-in;
+        &:hover{
+            transform: scale(1.05);
+        }
+    
 
-}
-.welcomeback:hover{
-    transform: scale(1.05);
 }
 
 
@@ -192,11 +193,6 @@ body{
     border: 0;
 }
 
-.main_email_str::placeholder{
-    font-weight: 400;
-    font-size: 22px;
-    color: rgb(255, 255, 255);
-}
 
 .main_email_str::placeholder{
     font-weight: 400;
@@ -218,7 +214,7 @@ input{
 }
 
 .button:hover{
-    opacity: 80%;
-    color:#fff;
+    opacity: 50%;
+    color:#ffffff;
     transition: 0.2s;
 }
