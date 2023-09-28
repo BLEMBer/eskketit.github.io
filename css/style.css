@@ -42,9 +42,9 @@ body{
     font-family: Arial;
     font-weight: 700;
     word-wrap: break-word;
-    transition: 300ms ease-in;
+    transition: 600ms ease-in;
         &:hover{
-            transform: scale(1.05);
+            transform: scale(1.05) translateY(120px);
         }
     
 
