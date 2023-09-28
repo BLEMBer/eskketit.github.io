@@ -41,6 +41,7 @@ body {
     display:block;
     margin:auto;
     opacity: 50%;
+    z-index: -15px;
     transition: 300ms linear;
     &:hover{
         opacity: 100%;
@@ -110,6 +111,7 @@ body {
 }
 
 .open{
+    z-index: 1;
     position: fixed;
     left: 775px;
     margin-top: 8%;
@@ -126,7 +128,9 @@ body {
 }
 
 .under-open{
+    z-index: 1;
     position: fixed;
+    mix-blend-mode: normal;
     left: 480px;
     top: 210px;
     margin-top: 1%;
