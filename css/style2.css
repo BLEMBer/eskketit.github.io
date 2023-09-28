@@ -78,17 +78,23 @@ body {
 }
 
 .text-bar{
+    border-bottom: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .bar-item{
+    border-bottom: none;
     margin-right: 55px;
 }
 
 .bar-link{
+    border-bottom: none;
     font-family: calibri;
+    display: block;
     font-size: 29px;
     font-weight: 400;
     color: white;
@@ -99,6 +105,7 @@ body {
     transition: 300ms linear;
     &:hover{
         color: rgb(80, 68, 242);
+        
     }
 }
 
