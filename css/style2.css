@@ -28,7 +28,7 @@ body {
     background-size: cover;
     min-height: 100vh;
   }
-  
+
 .block{
     width: 1680px;
     height: 855px;
@@ -48,15 +48,4 @@ body {
     }
 }
 
-.bar{
-    position: fixed;
-    width: 599px;
-    height: 52px;
-    top: 103px;
-    left: 649px;
-    border-radius: 75px;
-    transition: 250ms linear;
-    &:hover{
-        position: scale(4px);
-    }
-}
+
