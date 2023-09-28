@@ -30,6 +30,7 @@ body {
   }
 
 .block{
+    z-index: -1;
     width: 1680px;
     height: 855px;
     top: 40px;
@@ -42,7 +43,6 @@ body {
     margin:auto;
     opacity: 50%;
     user-select: none;
-    z-index: -15px;
     transition: 300ms linear;
     &:hover{
         opacity: 100%;
@@ -116,7 +116,6 @@ body {
 }
 
 .open{
-    z-index: 1;
     position: fixed;
     left: 775px;
     margin-top: 8%;
@@ -133,7 +132,6 @@ body {
 }
 
 .under-open{
-    z-index: 1;
     position: fixed;
     mix-blend-mode: normal;
     left: 480px;
@@ -150,16 +148,16 @@ body {
     letter-spacing: 0.4px;
 } 
 
+
 .card1{
-    z-index: 1px;
+    transition: 150ms linear;
     position: fixed;
     left: 200px;
     margin-top: 19%;
-    background: center;
 }
 
 .card2{
-    z-index: 1px;
+    transition: 150ms linear;
     position: fixed;
     left: 600px;
     margin-top: 19%;
@@ -167,7 +165,7 @@ body {
 }
 
 .card3{
-    z-index: 1px;
+    transition: 150ms linear;
     position: fixed;
     left: 1000px;
     margin-top: 19%;
@@ -175,9 +173,17 @@ body {
 }
 
 .card4{
-    z-index: 1px;
+    transition: 150ms linear;
     position: fixed;
     left: 1400px;
     margin-top: 19%;
     background: center;
+}
+
+
+.card4, .card3, .card2, .card1:hover{
+
+    &:hover{
+        transform: scale(1.1);
+    }
 }
