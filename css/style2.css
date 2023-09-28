@@ -27,6 +27,7 @@
     padding: 0;
   
 }
+
 body {
     background: url("../img/bg.png") no-repeat center;
     -webkit-background-size: cover;
@@ -37,6 +38,7 @@ body {
   }
 
 .block{
+        user-select: none;
     z-index: -1;
     width: 1680px;
     height: 855px;
@@ -353,15 +355,13 @@ body {
     transform: translateY(-95px) translateX(30px);
 }
 
-.ricki-text1, .prada-text1, .converse-text1, .vans-text1{
-    font-size: 138%;
-    font-variant: small-caps;
-}
+
 
 .search-box{
     width: fit-content;
     height: fit-content;
     position: relative;
+    transform: translateX(1285px) translateY(80px);
   }
   .input-search{
     height: 50px;
@@ -378,7 +378,7 @@ body {
     color:#fff;
   }
   .input-search::placeholder{
-    color:rgba(49, 49, 49, 0.5);
+    color:rgba(255, 255, 255, 0.653);
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 100;
@@ -401,14 +401,12 @@ body {
   .btn-search:focus ~ .input-search{
     width: 300px;
     border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(255,255,255,.5);
+    background-color: rgba(71, 71, 71, 0);
+    border-radius: 75px;
     transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
   }
   .input-search:focus{
     width: 300px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid rgba(255,255,255,.5);
+    border-radius: 35px;
     transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
   }
