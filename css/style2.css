@@ -52,11 +52,22 @@ body {
     position: fixed;
     width: 599px;
     height: 52px;
-    top: 53px;
+    top: 103px;
     left: 649px;
     border-radius: 75px;
     transition: 250ms linear;
     &:hover{
         position: scale(4px);
     }
+}
+
+
+/* <div class="home">Home</div>
+<div class="Profile">Profile</div>
+<div class="about_us">Abous Us</div>
+<div class="basket">Basket</div> */
+
+
+.home{
+    
 }
