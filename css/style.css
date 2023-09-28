@@ -10,7 +10,7 @@
     font-style: normal;
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("Roboto"),
+    src: local("Arial"),
          /* Если не получилось, загрузит woff2 */
          url("/fonts/arial.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
