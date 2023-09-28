@@ -28,7 +28,7 @@ body {
     background-size: cover;
     min-height: 100vh;
   }
-  
+
 .block{
     width: 1680px;
     height: 855px;
@@ -47,5 +47,4 @@ body {
         box-shadow: 0px 0px 30px 2px rgb(36, 36, 36);
     }
 }
-
 
