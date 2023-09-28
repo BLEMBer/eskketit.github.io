@@ -125,6 +125,7 @@ body {
 }
 
 .open{
+    user-select: none;
     position: fixed;
     left: 775px;
     margin-top: 8%;
@@ -138,9 +139,11 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: all 300ms;
 }
 
 .under-open{
+    user-select: none;
     position: fixed;
     mix-blend-mode: normal;
     left: 480px;
@@ -155,8 +158,11 @@ body {
     font-style: normal;
     line-height: 87.746%; /* 35.098px */
     letter-spacing: 0.4px;
+    transition: all 550ms;
 } 
-
+.open:hover{
+    scale: 1.05;
+}
 
 .card1{
     transition: 150ms linear;
