@@ -102,3 +102,17 @@ body {
     }
 }
 
+.open{
+    width: 445px;
+    height: 73px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: -2px 6px 0px rgba(71, 34, 79, 0.42);
+    font-family: Arial;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
