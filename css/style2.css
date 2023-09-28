@@ -42,7 +42,7 @@ body {
     margin:auto;
     opacity: 50%;
     user-select: none;
-    z-index: -15px;
+    z-index: -1px;
     transition: 300ms linear;
     &:hover{
         opacity: 100%;
@@ -149,15 +149,21 @@ body {
     line-height: 87.746%; /* 35.098px */
     letter-spacing: 0.4px;
 } 
-
+.cards{
+    z-index: 3;
+}
 .top-card{
-    z-index: 1;
+    z-index: 1px;
     position: fixed;
     left: 190px;
     margin-top: 19%;
     background: center;
+
 }
 
 .card1{
+    z-index: 1px;
     margin-left: 34px;
+    transition: 300ms linear;
+    
 }
