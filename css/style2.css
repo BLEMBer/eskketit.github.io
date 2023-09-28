@@ -48,4 +48,15 @@ body {
     }
 }
 
-
+.bar{
+    position: fixed;
+    width: 599px;
+    height: 52px;
+    top: 103px;
+    left: 649px;
+    border-radius: 75px;
+    transition: 250ms linear;
+    &:hover{
+        position: scale(4px);
+    }
+}
