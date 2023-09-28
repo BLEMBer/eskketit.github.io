@@ -162,10 +162,4 @@ body {
 .card1{
     position: static;
     margin-left: 34px;
-    transition: 300ms linear;
-}
-
-
-.cards{
-    position: fixed;
 }
