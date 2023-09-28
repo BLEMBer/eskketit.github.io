@@ -30,10 +30,22 @@ body {
   }
   
 .block{
+    width: 1680px;
+    height: 855px;
+    top: 40px;
+    left: 119px;
+    border-radius: 20px;
+    border: 4px;
+    opacity: 0.5px;
+    position: fixed;
     display:block;
     margin:auto;
-    text-align:center;
-    top: 30px;
+    opacity: 50%;
+    transition: 300ms linear;
+    &:hover{
+        opacity: 100%;
+        box-shadow: 0px 0px 30px 2px rgb(36, 36, 36);
+    }
 }
 
 
