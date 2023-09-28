@@ -148,4 +148,16 @@ body {
     font-style: normal;
     line-height: 87.746%; /* 35.098px */
     letter-spacing: 0.4px;
+} 
+
+.top-card{
+    z-index: 1;
+    position: fixed;
+    left: 190px;
+    margin-top: 19%;
+    background: center;
+}
+
+.card1{
+    margin-left: 34px;
 }
