@@ -21,12 +21,14 @@
     background-size: auto;
     background: url("../img/bg.png") no-repeat center;
 } */
+
 body {
     background: url("../img/bg.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 100vh;
   }
+  
 .block{
     display:block;
     margin:auto;
