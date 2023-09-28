@@ -1,5 +1,5 @@
 @font-face {
-    font-family: MuseoSansCyrl-500;
+    font-family: MuseoSansCyrl;
     src: local(Museo Sans Cyrl 500), local(MuseoSansCyrl-500)
         url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff2")
         url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff")
@@ -10,7 +10,7 @@
     font-style: normal;
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("Roboto"),
+    src: local("Arial"),
          /* Если не получилось, загрузит woff2 */
          url("/fonts/arial.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
@@ -88,11 +88,17 @@ body {
 }
 
 .bar-link{
+    font-family: calibri;
+    font-size: 29px;
+    font-weight: 400;
     color: white;
     font-size: 26px;
-    font-family: Museo Sans Cyrl;
     font-weight: 400;
     word-wrap: break-word;
     text-decoration: none;
+    transition: 300ms linear;
+    &:hover{
+        color: rgb(80, 68, 242);
+    }
 }
 
