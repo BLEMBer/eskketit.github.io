@@ -111,6 +111,7 @@ body {
 
 .open{
     position: fixed;
+    left: 775px;
     margin-top: 8%;
     background: center;
     flex-shrink: 0;
@@ -126,12 +127,15 @@ body {
 
 .under-open{
     position: fixed;
+    left: 480px;
+    top: 210px;
+    margin-top: 1%;
     flex-shrink: 0;
     color: #FFF;
     text-align: center;
     text-shadow: 2px 4px 7px rgba(36, 11, 31, 0.60);
     font-family: Calibri;
-    font-size: 25px;
+    font-size: 40px;
     font-style: normal;
     line-height: 87.746%; /* 35.098px */
     letter-spacing: 0.4px;
