@@ -27,9 +27,6 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 100vh;
-    font-family: 'Arial';
-    font-style: normal;
-    color: white;
   }
 
 .block{
@@ -98,3 +95,4 @@ body {
     word-wrap: break-word;
     text-decoration: none;
 }
+
