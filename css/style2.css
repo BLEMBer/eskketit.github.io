@@ -290,8 +290,6 @@ body {
     line-height: normal;
 }
 
-
-
 .card4{
     transition: 150ms linear;
     position: fixed;
@@ -360,8 +358,6 @@ body {
     position: static;
     transform: translateY(-95px) translateX(30px);
 }
-
-
 
 .search-box{
     width: fit-content;
