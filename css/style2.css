@@ -163,6 +163,40 @@ body {
     margin-top: 19%;
 }
 
+.vans-text1{
+    width: 204px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.vans-text2{
+    width: 36px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.vans-text3{
+    width: 52px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .card2{
     transition: 150ms linear;
     position: fixed;
