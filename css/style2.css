@@ -150,14 +150,34 @@ body {
     letter-spacing: 0.4px;
 } 
 
-.top-card{
-    z-index: 1;
+.card1{
+    z-index: 1px;
     position: fixed;
-    left: 190px;
+    left: 200px;
     margin-top: 19%;
     background: center;
 }
 
-.card1{
-    margin-left: 34px;
+.card2{
+    z-index: 1px;
+    position: fixed;
+    left: 600px;
+    margin-top: 19%;
+    background: center;
+}
+
+.card3{
+    z-index: 1px;
+    position: fixed;
+    left: 1000px;
+    margin-top: 19%;
+    background: center;    
+}
+
+.card4{
+    z-index: 1px;
+    position: fixed;
+    left: 1400px;
+    margin-top: 19%;
+    background: center;
 }
