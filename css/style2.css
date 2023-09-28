@@ -228,3 +228,8 @@ body {
         transform: scale(1.1);
     }
 }
+
+.vans_text_all{
+    position: static;
+    transform: translateY(-95px) translateX(30px);
+}
