@@ -149,9 +149,7 @@ body {
     line-height: 87.746%; /* 35.098px */
     letter-spacing: 0.4px;
 } 
-.cards{
-    z-index: 3;
-}
+
 .top-card{
     z-index: 1px;
     position: fixed;
@@ -162,8 +160,12 @@ body {
 }
 
 .card1{
-    z-index: 1px;
+    position: static;
     margin-left: 34px;
     transition: 300ms linear;
-    
+}
+
+
+.cards{
+    position: fixed;
 }
