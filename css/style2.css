@@ -114,5 +114,19 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
 
+.under-open{
+    width: 1000px;
+    height: 174px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 4px 7px rgba(36, 11, 31, 0.60);
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 87.746%; /* 35.098px */
+    letter-spacing: 0.4px;
 }
