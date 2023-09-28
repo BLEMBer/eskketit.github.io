@@ -245,6 +245,7 @@ body {
     left: 1000px;
     margin-top: 19%;
     background: center;    
+    transform: translateY(-3px);
 }
 
 .prada-text1{
@@ -280,6 +281,8 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+
 
 .card4{
     transition: 150ms linear;
@@ -348,4 +351,9 @@ body {
 .ricki_text_all{
     position: static;
     transform: translateY(-95px) translateX(30px);
+}
+
+.ricki-text1, .prada-text1, .converse-text1, .vans-text1{
+    font-size: 138%;
+    font-variant: small-caps;
 }
