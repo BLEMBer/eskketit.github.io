@@ -205,12 +205,80 @@ body {
     background: center;
 }
 
+.converse-text1{
+    width: 204px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.converse-text2{
+    width: 36px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.converse-text3{
+    width: 52px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .card3{
     transition: 150ms linear;
     position: fixed;
     left: 1000px;
     margin-top: 19%;
     background: center;    
+}
+
+.prada-text1{
+    width: 204px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.prada-text2{
+    width: 36px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.prada-text3{
+    width: 52px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .card4{
@@ -221,6 +289,39 @@ body {
     background: center;
 }
 
+.ricki-text1{
+    width: 204px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ricki-text2{
+    width: 36px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ricki-text3{
+    width: 52px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: calibri;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .card4, .card3, .card2, .card1:hover{
 
@@ -230,6 +331,21 @@ body {
 }
 
 .vans_text_all{
+    position: static;
+    transform: translateY(-95px) translateX(30px);
+}
+
+.converse_text_all{
+    position: static;
+    transform: translateY(-100px) translateX(30px);
+}
+
+.prada_text_all{
+    position: static;
+    transform: translateY(-100px) translateX(30px);
+}
+
+.ricki_text_all{
     position: static;
     transform: translateY(-95px) translateX(30px);
 }
