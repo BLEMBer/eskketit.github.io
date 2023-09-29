@@ -1,29 +1,31 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en, ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Shoes</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/kidding/main/static/main/css/reset.css">
+    <link rel="stylesheet" href="{% static '/kidding/main/static/main/css/style.css' %}">
 
 </head>
 <body>
     <div class="background_for_login"></div>
     <div class="vans_force">
-        <img src="./img/vans force.svg" alt="bg vans">
+        <img src="/kidding/main/static/main/img/vans force.svg" alt="bg vans">
     </div>
     <div class="prada">
-        <img src="./img/prada.svg" alt="shoes prada">
+        <img src="/kidding/main/static/main/img/prada.svg" alt="shoes prada">
     </div>
 <div class="welcomeback">Hello!<br/> Welcome back</div>
 
     <div class="email">
-        <img src="./img/email.png" alt="email">
+        <img src="/kidding/main/static/main/img/email.png" alt="email">
     </div>
 
     <div class="password">
-        <img src="./img/password.png" alt="password">
+        <img src="/kidding/main/static/main/img/password.png" alt="password">
     </div>
 
         <div class="email1">Email</div>
@@ -43,7 +45,7 @@
         </fieldset>
     </form>
     <div class="button">
-        <a href="#"> <img src= "./img/login.svg" alt="" border="0"> </a> 
+        <a href="#"> <img src= "/kidding/main/static/main/img/login.svg" alt="" border="0"> </a> 
     </div>
 </body>
 </html>
