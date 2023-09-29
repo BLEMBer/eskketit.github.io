@@ -1,0 +1,135 @@
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: local(Museo Sans Cyrl 500), local(MuseoSansCyrl-500)
+        url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff2")
+        url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff")
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Arial"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/arial.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/arial.woff") format("woff");
+  }
+/* body{
+    position: static;
+    background-size: auto;
+    background: url("../img/bg.png") no-repeat center;
+} */
+
+
+/* body{
+    background-size: cover;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(180deg, #080709 0%, rgba(0, 0, 0, 0.95) 48.96%, rgba(88, 25, 190, 0.88) 100%);
+} */
+
+body{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    -webkit-background-size: cover;
+    min-height: 100vh;
+    height: 100vh;
+    background: linear-gradient(180deg, #080709 0%, rgba(0, 0, 0, 0.95) 48.96%, rgba(88, 25, 190, 0.88) 100%);
+    background-size: cover;
+}
+.back{
+    display: flex;
+    opacity: 50%;
+    transform: translateY(50px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1680px;
+    height: 844px;
+    flex-shrink: 0;
+    border-radius: 19px;
+    border: 4px solid rgba(255, 255, 255, 0.56);
+    opacity: 0.5;
+    background: #D8D8D8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+.text_main{
+    transform: translateY(-850px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1001px;
+    color: #FFF;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+    transform: translateX(-165px) translateY(-50px);
+    position: fixed;
+    width: 599px;
+    height: 52px;
+    top: 92px;
+    left: 700px;
+    border-radius: 75px;
+    transition: 250ms linear;
+}
+
+.text-bar{
+    border-bottom: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.back-bar{
+    user-select: none;
+}
+
+.bar-item{
+    border-bottom: none;
+    margin-right: 55px;
+}
+
+.bar-link{
+    border-bottom: none;
+    font-family: calibri;
+    display: block;
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-decoration: none;
+    transition: 300ms linear;
+    &:hover{
+        color: rgb(80, 68, 242);
+        
+    }
+}
+.rectangle{
+        display: flex;
+        transform: translateX(40px);
+        position: fixed;
+        width: 599px;
+        height: 52px;
+        top: 55px;
+        left: 649px;
+        border-radius: 75px;
+        transition: 250ms linear;
+        &:hover{
+            position: scale(4px);
+        }
+    }
+}
