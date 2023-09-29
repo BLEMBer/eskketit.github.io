@@ -29,7 +29,7 @@
 }
 
 body {
-    background: url("/kidding/main/static/main/img/bg.png") no-repeat center;
+    background: url("../img/bg.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 100vh;
@@ -82,8 +82,8 @@ body {
     position: fixed;
     width: 599px;
     height: 52px;
-    top: 92px;
-    left: 700px;
+    top: 85px;
+    left: 685px;
     border-radius: 75px;
     transition: 250ms linear;
 }
@@ -113,8 +113,6 @@ body {
     font-size: 29px;
     font-weight: 400;
     color: white;
-    font-size: 26px;
-    font-weight: 400;
     word-wrap: break-word;
     text-decoration: none;
     transition: 300ms linear;
