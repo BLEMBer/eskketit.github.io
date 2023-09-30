@@ -21,13 +21,14 @@
   /* intro moment */
 
   
-body{
+  body{
+    background: linear-gradient(0deg, rgb(34, 34, 34) 50%, rgba(33,33,33,1) 100%);
     -webkit-background-size: cover;
     min-height: 100vh;
     height: 100vh;
-    background-color: #212121;
-    background-size: cover;
+    background-size: crgb(231, 1, 1)
 }
+
 
 .welcomeback{
     position: fixed;
