@@ -119,17 +119,16 @@ body{
     }
 }
 .rectangle{
-        display: flex;
-        transform: translateX(40px);
-        position: fixed;
-        width: 599px;
-        height: 52px;
-        top: 55px;
-        left: 649px;
-        border-radius: 75px;
-        transition: 250ms linear;
-        &:hover{
-            position: scale(4px);
-        }
+    display: flex;
+    transform: translateX(40px);
+    position: fixed;
+    width: 599px;
+    height: 52px;
+    top: 55px;
+    left: 649px;
+    border-radius: 75px;
+    transition: 250ms linear;
+    &:hover{
+    position: scale(4px);
     }
 }
