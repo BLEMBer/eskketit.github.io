@@ -170,9 +170,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    width: 137px;
     height: 36px;
-    top: 650px;
+    top: 710px;
     left: 1055px;
 }
 
@@ -185,7 +184,22 @@
     left: 1130px;
 }
 
+.main_confirm_password_info{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 760px;
+    left: 1130px;
+}
+
 .main_password_str{
+    height: 60px;
+    width: 520px;
+    background-color: transparent;
+    border: 0;
+}
+
+.main_confirm_password_str{
     height: 60px;
     width: 520px;
     background-color: transparent;
@@ -195,10 +209,10 @@
 .main_password_str::placeholder{
     font-weight: 400;
     font-size: 22px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.34);
 }
 
-.main_password_str::placeholder{
+.main_confirm_password_str::placeholder{
     font-weight: 400;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.34);
