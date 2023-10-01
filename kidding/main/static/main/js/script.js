@@ -1,1 +1,1 @@
-new Swiper('.swiper-slide')
+// new Swiper('.swiper-slide')
