@@ -258,3 +258,13 @@ input{
     color:#ffffff;
     transition: 0.2s;
 }
+
+
+.already_have{
+    color: #ffff;
+    position: fixed;
+    opacity: 70%;
+    transform: translateX(1280px) translateY(920px);
+    direction: none;
+
+}
