@@ -42,9 +42,9 @@
     font-family: Arial;
     font-weight: 700;
     word-wrap: break-word;
-    transition: 600ms ease-in;
+    transition: 300ms linear;
         &:hover{
-            transform: scale(1.05) translateY(120px);
+            transform: scale(1.05);
         }
 }
 
