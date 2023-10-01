@@ -1,0 +1,218 @@
+@font-face {
+    font-family: MuseoSansCyrl-500;
+    src: local(Museo Sans Cyrl 500), local(MuseoSansCyrl-500)
+        url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff2")
+        url("./fonts/ofont.ru_Museo Sans Cyrl 500.ttf") format("woff")
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Arial"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/arial.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/arial.woff") format("woff");
+  }
+
+
+  /* intro moment */
+
+  
+  body{
+    background: linear-gradient(0deg, rgb(34, 34, 34) 50%, rgba(33,33,33,1) 100%);
+    -webkit-background-size: cover;
+    min-height: 100vh;
+    height: 100vh;
+    background-size: crgb(231, 1, 1)
+}
+
+
+.welcomeback{
+    position: fixed;
+    width: 615px;
+    height: 175px;
+    top: 50px;
+    left: 1048px;
+    user-select: none;
+    color: white;
+    font-size: 88px;
+    font-family: Arial;
+    font-weight: 700;
+    word-wrap: break-word;
+    transition: 600ms ease-in;
+        &:hover{
+            transform: scale(1.05) translateY(120px);
+        }
+}
+
+
+.vans_force{
+    user-select: none;
+    position: fixed;
+    width: 1003.24px;
+    height: 891.26px;
+    top: 166px;
+    left: 33px;
+    filter: brightness(50%);
+    transition: 300ms ease-in;
+}
+.vans_force:hover{
+    filter: brightness(100%);
+}
+
+.prada{
+    user-select: none;
+    position: fixed;
+    width: 571px;
+    height: 659px;
+    top: 157px;
+    left: 128px;
+    transition: transform 1s ease-out;
+}
+
+.prada:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+
+
+/* .prada:hover{
+    transition: 1s;
+    transform: rotate(-10deg) scale(1.1);
+    transition-duration: 1s;
+} */
+
+.background_for_login{
+    user-select: none;
+    background: rgb(49,51,52);
+    background: linear-gradient(0deg, rgba(49,51,52,1) 50%, rgba(33,33,33,1) 100%);;
+    position: fixed;
+    width: 909px;
+    height: 1165px;
+    top: -64px;
+    left: 1011px;
+    filter: blur(4px);
+}
+
+
+.email{
+    user-select: none;
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 549px;
+    left: 1048px;
+    mix-blend-mode: color-burn;
+}
+.email1{
+    user-select: none;
+    position: fixed;
+    width: 78px;
+    height: 36px;
+    top: 510px;
+    left: 1055px;
+    font-family: Arial;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+.password{
+    user-select: none;
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 693px;
+    left: 1048px;
+    mix-blend-mode: color-burn;
+}
+
+.password1{
+    user-select: none;
+    position: fixed;
+    font-family: Arial;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 137px;
+    height: 36px;
+    top: 655px;
+    left: 1055px;
+}
+
+
+.main_password_info{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 700px;
+    left: 1130px;
+}
+
+.main_password_str{
+    height: 60px;
+    width: 520px;
+    background-color: transparent;
+    border: 0;
+}
+
+.main_password_str::placeholder{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.main_password_str::placeholder{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.34);
+}
+
+.main_email_info{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 558px;
+    left: 1130px;
+}
+
+.main_email_str{
+    height: 60px;
+    width: 520px;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.main_email_str::placeholder{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.34);
+}
+
+input{
+    color: white;
+    font-size: 22px;
+}
+
+.button{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 858px;
+    left: 1065px;
+}
+
+.button:hover{
+    opacity: 80%;
+    color:#ffffff;
+    transition: 0.2s;
+}
