@@ -48,7 +48,6 @@
         }
 }
 
-
 .vans_force{
     user-select: none;
     position: fixed;
@@ -102,7 +101,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 549px;
+    top: 510px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
@@ -111,7 +110,7 @@
     position: fixed;
     width: 78px;
     height: 36px;
-    top: 510px;
+    top: 480px;
     left: 1055px;
     font-family: Arial;
     font-size: 31px;
@@ -122,15 +121,27 @@
     color: white;
 
 }
+
 .password{
     user-select: none;
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 693px;
+    top: 653px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
+
+.password-confirm{
+    user-select: none;
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 800px;
+    left: 1048px;
+    mix-blend-mode: color-burn;
+}
+
 
 .password1{
     user-select: none;
@@ -144,7 +155,7 @@
     color: white;
     width: 137px;
     height: 36px;
-    top: 655px;
+    top: 615px;
     left: 1055px;
 }
 
@@ -153,7 +164,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 700px;
+    top: 665px;
     left: 1130px;
 }
 
@@ -180,7 +191,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 558px;
+    top: 520px;
     left: 1130px;
 }
 
