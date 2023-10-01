@@ -49,6 +49,7 @@
         }
 }
 
+
 .vans_force{
     user-select: none;
     position: fixed;
@@ -102,7 +103,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 470px;
+    top: 549px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
@@ -111,7 +112,7 @@
     position: fixed;
     width: 78px;
     height: 36px;
-    top: 430px;
+    top: 510px;
     left: 1055px;
     font-family: Arial;
     font-size: 31px;
@@ -122,27 +123,15 @@
     color: white;
 
 }
-
 .password{
     user-select: none;
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 613px;
+    top: 693px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
-
-.password-confirm{
-    user-select: none;
-    position: fixed;
-    width: 601px;
-    height: 67px;
-    top: 750px;
-    left: 1048px;
-    mix-blend-mode: color-burn;
-}
-
 
 .password1{
     user-select: none;
@@ -156,23 +145,7 @@
     color: white;
     width: 137px;
     height: 36px;
-    top: 575px;
-    left: 1055px;
-}
-
-.pss-con1{
-    user-select: none;
-    position: fixed;
-    font-family: Arial;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
-    width: 137px;
-    height: 36px;
-    top: 650px;
+    top: 655px;
     left: 1055px;
 }
 
@@ -181,7 +154,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 625px;
+    top: 700px;
     left: 1130px;
 }
 
@@ -208,7 +181,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 480px;
+    top: 558px;
     left: 1130px;
 }
 
