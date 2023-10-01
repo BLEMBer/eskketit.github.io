@@ -102,7 +102,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 510px;
+    top: 470px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
@@ -111,7 +111,7 @@
     position: fixed;
     width: 78px;
     height: 36px;
-    top: 480px;
+    top: 430px;
     left: 1055px;
     font-family: Arial;
     font-size: 31px;
@@ -128,7 +128,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 653px;
+    top: 613px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
@@ -138,7 +138,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 800px;
+    top: 750px;
     left: 1048px;
     mix-blend-mode: color-burn;
 }
@@ -156,7 +156,23 @@
     color: white;
     width: 137px;
     height: 36px;
-    top: 615px;
+    top: 575px;
+    left: 1055px;
+}
+
+.pss-con1{
+    user-select: none;
+    position: fixed;
+    font-family: Arial;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 137px;
+    height: 36px;
+    top: 650px;
     left: 1055px;
 }
 
@@ -165,7 +181,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 665px;
+    top: 625px;
     left: 1130px;
 }
 
@@ -192,7 +208,7 @@
     position: fixed;
     width: 601px;
     height: 67px;
-    top: 520px;
+    top: 480px;
     left: 1130px;
 }
 
