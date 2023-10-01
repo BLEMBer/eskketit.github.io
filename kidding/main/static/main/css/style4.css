@@ -145,7 +145,23 @@
     color: white;
     width: 137px;
     height: 36px;
-    top: 655px;
+    top: 575px;
+    left: 1055px;
+}
+
+.pss-con1{
+    user-select: none;
+    position: fixed;
+    font-family: Arial;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 137px;
+    height: 36px;
+    top: 650px;
     left: 1055px;
 }
 
@@ -158,7 +174,22 @@
     left: 1130px;
 }
 
+.main_confirm_password_info{
+    position: fixed;
+    width: 601px;
+    height: 67px;
+    top: 760px;
+    left: 1130px;
+}
+
 .main_password_str{
+    height: 60px;
+    width: 520px;
+    background-color: transparent;
+    border: 0;
+}
+
+.main_confirm_password_str{
     height: 60px;
     width: 520px;
     background-color: transparent;
@@ -168,10 +199,10 @@
 .main_password_str::placeholder{
     font-weight: 400;
     font-size: 22px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.34);
 }
 
-.main_password_str::placeholder{
+.main_confirm_password_str::placeholder{
     font-weight: 400;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.34);
