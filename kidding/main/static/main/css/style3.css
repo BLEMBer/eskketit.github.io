@@ -125,7 +125,7 @@ body {
 .open{
     user-select: none;
     position: fixed;
-    left: 775px;
+    left: 825px;
     margin-top: 8%;
     background: center;
     flex-shrink: 0;
@@ -144,7 +144,7 @@ body {
     
     position: absolute;
     user-select: none;
-    transform: translateY(220px) translateX(580px);
+    transform: translateY(220px) translateX(680px);
     position: fixed;
     mix-blend-mode: normal;
     flex-shrink: 0;
@@ -429,5 +429,5 @@ body {
 .section-map{
     position: fixed;
     margin-top: 300px;
-    margin-left: 490px;
+    margin-left: 590px;
 }
