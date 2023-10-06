@@ -426,8 +426,8 @@ body {
 
 } */
 
-.map{
+.section-map{
     position: fixed;
-    top: 30px;
+    margin-top: 300px;
+    margin-left: 490px;
 }
-
