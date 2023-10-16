@@ -36,21 +36,21 @@
         <div class="password1">Пароль</div>
         <div class="pss-con1">Подтвердить ваш пароль</div>
 
-    <form class="password_main">
+    <form class="password_main" method="post">
         <fieldset class="form-wrap_password">
             <p class="main_password_info">
                 <input type="password" class="main_password_str" placeholder="***********">
             </p>
         </fieldset>
     </form>
-    <form class="confirm_password_main">
+    <form class="confirm_password_main" method="post">
         <fieldset class="form-wrap_confirm_password">
             <p class="main_confirm_password_info">
                 <input type="password" class="main_confirm_password_str" placeholder="***********">
             </p>
         </fieldset>
     </form>
-    <form class="email_main">
+    <form class="email_main" method="post">
         <fieldset class="form-wrap_email">
             <p class="main_email_info">
                 <input type="email" class="main_email_str" placeholder="Enter your email address">
@@ -58,7 +58,9 @@
         </fieldset>
     </form>
     <div class="button">
+        <!-- <button> -->
         <a href="#"> <img src= "{% static 'main/img/reg.svg' %}" alt="" border="0"> </a>
+        <!-- </button>> -->
     </div>
         <a href="/login" class="already_have">Уже есть аккаунт?</a>
 </body>
